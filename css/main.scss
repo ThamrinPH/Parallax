@@ -1,0 +1,9 @@
+$colors: (
+    primary:#FFE8C2,
+    accent:#FFF2B5,
+    pinkrose:#FFCEB5,
+);
+
+body{
+    background-color: map-get($colors, primary);
+}

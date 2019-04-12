@@ -1,0 +1,23 @@
+{
+  "name": "parallax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThamrinPH/Parallax.git"
+  },
+  "keywords": [
+    "Parallax",
+    "SASS"
+  ],
+  "author": "Thamrin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThamrinPH/Parallax/issues"
+  },
+  "homepage": "https://github.com/ThamrinPH/Parallax#readme"
+}
