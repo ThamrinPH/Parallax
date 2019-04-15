@@ -41,6 +41,16 @@
         opacity:0,
     });
 
+    tl.from("#img-1", 1, {
+        x:200,
+        opacity:0,
+    });
+
+    tl.from("#img-2", 1, {
+        x:-200,
+        opacity:0,
+    });
+
     const scene = new ScrollMagic.Scene({
         triggerElement: ".sticky",
         triggerHook: "onLeave",
