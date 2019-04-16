@@ -12,6 +12,18 @@ body{
    
 }
 
+#box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 5px solid red;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 section{
     padding: 3em;
     height: 100vh;
