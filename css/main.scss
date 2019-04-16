@@ -12,7 +12,6 @@ body{
    
 }
 
-
 section{
     padding: 3em;
     height: 100vh;
@@ -35,6 +34,15 @@ section{
         }
     }
 
+    #groom{
+        color: azure;
+        right: 200px;
+        margin-top: 20em;
+    }
+
+    #bride{
+        color: blueviolet;
+    }
     img {
         position: absolute;
     }

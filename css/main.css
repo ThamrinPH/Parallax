@@ -34,6 +34,16 @@ section blockquote span {
   margin-top: 20px;
 }
 
+section #groom {
+  color: azure;
+  right: 200px;
+  margin-top: 20em;
+}
+
+section #bride {
+  color: blueviolet;
+}
+
 section img {
   position: absolute;
 }

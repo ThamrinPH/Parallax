@@ -13,12 +13,18 @@
     </section>
     
     <section class="sticky">
-        <blockquote>
+        <blockquote id="bride">
             "Some beautiful text here"
             <span></span>
         </blockquote>
+
         <img id="img-1" src="image/sample-2.jpg" alt="image/sample-2.jpg">
         <img id="img-2" src="image/sample.jpg" alt="image/sample-2.jpg">
+
+        <blockquote id="groom">
+            "Some gentleman text here"
+            <span></span>
+        </blockquote>
         <div id="box"></div>
     </section>
 
@@ -36,7 +42,7 @@
     var tl = new TimelineMax({onUpdate:updatePercentage});
     const controller = new ScrollMagic.Controller();
 
-    tl.from("blockquote", .5, {
+    tl.from("#bride", .5, {
         x:200,
         opacity:0,
     });
@@ -47,6 +53,11 @@
     });
 
     tl.from("#img-2", 1, {
+        x:-200,
+        opacity:0,
+    });
+
+    tl.from("#groom", .5, {
         x:-200,
         opacity:0,
     });
