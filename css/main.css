@@ -1,20 +1,30 @@
 @import url("https://fonts.googleapis.com/css?family=Arapey");
+@import url("https://fonts.googleapis.com/css?family=Vidaloka");
+@import url("https://fonts.googleapis.com/css?family=Lato");
 body {
   margin: 0;
   font-family: 'Arapey';
 }
 
 body h1 {
-  font-size: 2em;
+  font-size: 6em;
   text-align: center;
-  margin-top: 20%;
+  margin-top: 5%;
+  font-family: 'Vidaloka';
+}
+
+body .guest {
+  margin-top: 10%;
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Lato';
 }
 
 #box {
   width: 100px;
   height: 100px;
   position: absolute;
-  border: 5px solid red;
+  border: 5px solid black;
   margin: auto;
   top: 0;
   left: 0;
